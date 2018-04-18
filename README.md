@@ -7,8 +7,8 @@ zero-width non-joiner space is used to represent a '0'.
 These are placed after a word followed by a space,
 except if leading spaces or end of line.
 
-Inspired by [ZWFP](https://github.com/vedhavyas/zwfp) project,
-the basic version of the encoder/decoder is less tha 70 lines of
+Inspired by the [ZWFP](https://github.com/vedhavyas/zwfp) project,
+the basic version of the encoder/decoder is less than 70 lines of
 [Ruby](https://www.ruby-lang.org), including boilerplate code
 and comments.
 
@@ -16,7 +16,7 @@ and comments.
 
 Encoding:
 
-    ./zerowidth --encode Super Secret Text To Be Encoded 12345 < sample-normal.txt > sample-steg.txt
+    ./zerowidth --encode Super Secret Text 12345 < sample-normal.txt > sample-steg.txt
 
 Decoding:
 
